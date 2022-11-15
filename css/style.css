@@ -1,0 +1,132 @@
+/*** GENERAL ***/
+
+@import url("https://fonts.googleapis.com/css2? family=Roboto:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #f3f3f3;
+}
+
+/*** HEADER y FOOTER ***/
+
+header,
+footer {
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    gap: 1rem;
+}
+
+.nav li a {
+    color: #f3f3f3;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 234px;
+    height: auto;
+}
+
+footer {
+    padding: 20px 42px 20px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/*** MAIN ***/
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin: 4rem 1rem;
+}
+
+.card {
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.card1 {
+    background-image: url(/img/delivery.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.card1 h1, 
+.card2 h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fc200c;
+}
+
+.card1 h1 span {
+    color: #ffffff;
+}
+
+.card2 {
+    background-color: white;
+    padding: 25px 50px;
+}
+
+.card2 h2 {
+    text-align: center;
+}
+
+.card2-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card2-content h3 {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.card2-content ol {
+    margin-top: 2rem;
+}
+
+.card2-content ol li {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
